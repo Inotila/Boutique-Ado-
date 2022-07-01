@@ -65,6 +65,9 @@ body {
   }
 }
 
+.bg-black{
+    background-color: #000 !important;
+}
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
