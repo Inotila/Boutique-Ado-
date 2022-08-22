@@ -1,5 +1,3 @@
-nes (137 sloc)  6.61 KB
-
 {% extends "base.html" %}
 {% load static %}
 {% load bag_tools %}
@@ -135,6 +133,13 @@ nes (137 sloc)  6.61 KB
                 </form>
             </div>
         </div>
+    </div>
+    <div id="loading-overlay">
+        <h1 class="text-light logo-font loading-spinner">
+            <span class="icon">
+                <i class="fas fa-3x fa-sync-alt fa-spin"></i>
+            </span>
+        </h1>
     </div>
 {% endblock %}
 
